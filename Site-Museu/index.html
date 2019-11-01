@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Museu Nacional</title>
+
+    <!--Meus estilos-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Normalise css-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--inicio container-->
+    <div id="container">
+
+        <!--inicio header-->
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>            
+
+            <!--inicio nav-->
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+            <!--fim nav-->
+        </header>
+        <!--fim header-->
+
+        <!--inicio principal-->
+        <div id="principal">
+            <!--Inicio conteudo-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="image/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/WMGTPjVyqeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="video">
+                        <h3>Mapa: Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63816.30558337836!2d-48.51100246152669!3d-1.4622257769932976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48ef3fc0386c1%3A0x91a00c549ec3789b!2sMuseu%20do%20Estado%20do%20Par%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1572623697840!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="">Os assustadores insetos</a>
+                            </li>
+
+                            <li>
+                                <a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+                            </li>
+
+                            <li>
+                                <a href="">Preguiça gigante e tigre-dentes-de-sabre</a>
+                            </li>
+
+                            <li>
+                                <a href="">Plantas do Brasil central</a>
+                            </li>
+
+                            <li>
+                                <a href="">Tereza Cristina: A Imperatriz Arqueóloga</a>
+                            </li>
+
+                            <li>
+                                <a href=""><strong>Veja todos (65)</strong></a>
+                            </li>                            
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de texto</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quas molestias neque laudantium repellat blanditiis facilis dolorum earum aperiam impedit, suscipit eaque cum ipsum rem officiis! Eveniet ipsum saepe hic?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quas molestias neque laudantium repellat blanditiis facilis dolorum earum aperiam impedit.
+                        </p>
+
+                        <a href=""><strong>Leia mais...</strong></a>
+                    </article>
+                </section>
+            </div>
+            <!--Fim conteudo-->
+
+            <!--Inicio Aside-->
+            <aside>
+                <section id="depoimento">
+                    <img src="image/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd ">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar Disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+
+                    <a href="">
+                        <img src="image/imagem1.jpg" height="93" width="93" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="image/imagem2.jpg" height="93" width="93" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="image/imagem3.jpg" height="93" width="93" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="image/imagem4.jpg" height="93" width="93" alt="">
+                    </a>
+                </section>
+            </aside>
+            <!--Fim Aside-->
+
+        <footer>
+            <p>
+                <a href="">Home</a>
+                <a href="">Exposições</a>
+                <a href="">Pesquisa</a>
+                <a href="">Acervo</a>
+                <a href="">Vídeo</a>
+                <a href="">Fotos</a>
+                <a href="">Contato</a>
+            </p>
+
+            <p>
+                2019 <a href="">Museu Emilio Guedi</a> | Todos os Direitos Reservados
+            </p>
+        </footer>
+        </div>
+        <!--inicio principal-->
+    </div>
+    <!--fim container-->
+</body>
+</html>
